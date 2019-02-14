@@ -17,10 +17,10 @@ greeting()
 #2.14.19
 
 
-x = 406
+x = 11
 
 def print_somthing():
-    x = 12
+    x = 13
     print(x)
 print_somthing()
 print(x)
