@@ -50,3 +50,13 @@ def print_num(x):
     print(str(x))
 print_num(12)
 print_num('\n' + 'Hello World')
+
+#4.14.4: Name & Age
+# Kaden Seeger
+#2.18.19
+
+def name_and_age(name, age):
+    print('\n', 'Hi, my name is ', name, '\n', 'I am ',  str(age), ' year(s) old!')
+name_and_age('Kaden Seeger', 8)
+name_and_age('Tyson Watson', 4)
+name_and_age('Lucas Simpson',2)
