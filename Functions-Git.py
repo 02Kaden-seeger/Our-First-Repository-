@@ -1,4 +1,4 @@
-'''
+
 #2.13.3: Greeting
 #Kaden Seeger
 #2/6/19
@@ -10,7 +10,7 @@ def greeting():
     print("Hi there " + name + "!")
     print( "nice to meet you ")
 greeting()
-'''
+
 
 #4.13.4: Functions and variables '
 #Kaden Seeger
@@ -24,3 +24,29 @@ def print_somthing():
     print(x)
 print_somthing()
 print(x)
+
+
+
+#4.13.5: Functions and Variables - Part 2
+#Mr. Lange
+#2.14.19
+
+my_ variable = 3.6745
+
+def something():
+    print(my_variable + 10)
+something()
+
+
+
+
+
+#4.13.6: Functions & Variables, Part 3
+# Kaden Seeger
+#2.18.19
+
+
+def print_num(x):
+    print(str(x))
+print_num(12)
+print_num('\n' + 'Hello World')
