@@ -91,3 +91,4 @@ def print_multiple_times(string, times):
 
 print_multiple_times('Hello', 14)
 
+9
