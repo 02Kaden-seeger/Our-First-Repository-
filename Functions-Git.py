@@ -27,20 +27,6 @@ print(x)
 
 
 
-#4.13.5: Functions and Variables - Part 2
-#Mr. Lange
-#2.14.19
-
-my_ variable = 3.6745
-
-def something():
-    print(my_variable + 10)
-something()
-
-
-
-
-
 #4.13.6: Functions & Variables, Part 3
 # Kaden Seeger
 #2.18.19
