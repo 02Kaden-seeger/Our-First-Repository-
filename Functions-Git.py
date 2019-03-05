@@ -92,6 +92,7 @@ def print_multiple_times(string, times):
 print_multiple_times('Hello', 14)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 
@@ -111,3 +112,27 @@ except ValueError:
 print('\n''Name:', name)
 print('age:', age)
 >>>>>>> Enter-Name-And-Age
+=======
+#4.16.6: Temp converter
+#Kaden Seeger
+#2.20.19
+
+def celcius_to_fahrenheit(celcius):
+    return celcius * 1.8 + 32
+
+def fahrenheit_to_celcius(fahrenheit):
+    return(fahrenheit - 32) / 1.8
+
+try:
+    c = float(input('Enter a temp in  C:'))
+    print('In F:', round(celcius_to_fahrenheit(c)), 2)
+
+    f = float(input('Enter a temp in  F:'))
+    print('In C:', round(fahrenheit_to_celcius(f)), 2)
+
+except ValueError:
+    print('wHOoPS you did that wrong')
+
+
+    
+>>>>>>> Temp-converter
