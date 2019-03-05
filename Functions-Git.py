@@ -91,4 +91,23 @@ def print_multiple_times(string, times):
 
 print_multiple_times('Hello', 14)
 
+<<<<<<< HEAD
 
+
+
+
+#4.16.4: Name & Age
+#Kaden Seeger
+#2.20.19
+
+name = input('What is your name: ')
+age = -1
+try:
+    age = int(input('Enter your age: '))
+except ValueError:
+    print('That was not a good one.')
+
+
+print('\n''Name:', name)
+print('age:', age)
+>>>>>>> Enter-Name-And-Age
