@@ -91,8 +91,7 @@ def print_multiple_times(string, times):
 
 print_multiple_times('Hello', 14)
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 
 
 
@@ -111,8 +110,8 @@ except ValueError:
 
 print('\n''Name:', name)
 print('age:', age)
->>>>>>> Enter-Name-And-Age
-=======
+
+
 #4.16.6: Temp converter
 #Kaden Seeger
 #2.20.19
@@ -134,5 +133,22 @@ except ValueError:
     print('wHOoPS you did that wrong')
 
 
+#4.16.7: Enter a positive number
+#Kaden Seeger
+#2.21.19
+
+def retrieve_posotive_number():
+    while True:
+        try:
+            number = int(input('Enter a positive number:'))
+            if number > 0:
+                return number
+            else:
+                print('Whoops that was a positive not')
+        except ValueError:
+            print('That was not a number you DUMB bannana')
+retrieve_posotive_number()
+
+
     
->>>>>>> Temp-converter
+
